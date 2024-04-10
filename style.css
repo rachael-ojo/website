@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -11,6 +11,12 @@ header {
     padding: 50px 0;
 }
 
+.profile-image {
+    background-color:#fff;
+    color: #333;
+    size: 0rem;
+    
+}
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -35,17 +41,10 @@ footer {
     color: #fff;
 }
 
-.social-icons {
-    margin-top: 10px;
-}
-
-.social-icons a {
-    display: inline-block;
-    margin-right: 10px;
-}
-
 .social-icons img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+    display: inline-block;
+    width: 0px;
+    height: auto;
+    border-radius: 0%;
+    margin-right: 0px;
 }
